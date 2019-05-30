@@ -9,7 +9,8 @@
                 <p class="card-text">
                   <span class="text-info">Units </span>: {{package.units}}
                 </p>
-                <a href="#" class="btn btn-primary">₹ {{package.price}}</a>
+                <a router class="btn btn-primary">₹ {{package.price}}</a>
+                <a [routerLink]="[ '/login' ]">₹ {{package.price}}</a>
               </div>
             </div>
       </ng-container>
